@@ -36,7 +36,7 @@ Mohsen Mesgar, Simon Tompson, and Iryna Gurevych. 2021. Improving Factual Consis
 ## BibTeX
 ```
 @Inproceedings{mesgar21,
-    title = "Neural Tree Indexers for Text Understanding",
+    title = "Improving Factual Consistency Between a Response and Persona Facts",
     author = "Mesgar, Mohsen and Timpson, Edwin and Gurevych, Iryna",
     booktitle = "Proceedings of the 16th Conference of the {E}uropean Chapter of the Association for Computational Linguistics (EACL): Volume 1, Long Papers",
     month = "April",
