@@ -31,13 +31,13 @@ This project is licensed under the terms of the MIT license.
 
 ## Publication
 
-Mohsen Mesgar, Simon Tompson, and Iryna Gurevych. 2021. Improving Factual Consistency Between a Response and Persona Facts. In Proceedings of EACL'21. 
+Mohsen Mesgar, Simon Simpson, and Iryna Gurevych. 2021. Improving Factual Consistency Between a Response and Persona Facts. In Proceedings of EACL'21. 
 
 ## BibTeX
 ```
 @Inproceedings{mesgar21,
     title = "Improving Factual Consistency Between a Response and Persona Facts",
-    author = "Mesgar, Mohsen and Timpson, Edwin and Gurevych, Iryna",
+    author = "Mesgar, Mohsen and Simpson, Edwin and Gurevych, Iryna",
     booktitle = "Proceedings of the 16th Conference of the {E}uropean Chapter of the Association for Computational Linguistics (EACL): Volume 1, Long Papers",
     month = "April",
     year = 2021,
