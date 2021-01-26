@@ -33,8 +33,14 @@ pip install -r requirements.txt
 
 ## Data
 
+
 ## Procedure
-  
+
+1. Persona-consistency-subreward
+The accuracy of our BERT-based model for this subreward is obtained by 
+```haml
+python persona-consistency-subreward/eval_on_dialogue_nli.py 
+```   
 ## License
 
 This project is licensed under the terms of the MIT license.
