@@ -21,6 +21,16 @@ Don't hesitate to send us an e-mail, if something is broken (and it shouldn't be
 
 ## Setup
 
+```
+conda create -n ttrl
+
+source activate ttrl 
+
+conda install pip
+
+pip install -r requirements.txt
+```
+
 ## Data
 
 ## Procedure
