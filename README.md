@@ -21,7 +21,7 @@ Don't hesitate to send us an e-mail, if something is broken (and it shouldn't be
 
 ## Setup
 
-```
+```bash
 conda create -n ttrl
 
 source activate ttrl 
@@ -38,17 +38,36 @@ pip install -r requirements.txt
 
 1. Persona-consistency subreward
 The accuracy of our BERT-based model for this subreward is obtained by 
-```python
+```bash
 python persona-consistency-subreward/eval_on_dialogue_nli.py 
 ```   
 
 2. Language quality subreward
 This folder contains the scripts related to the language qaulity subreward. 
-```python
+```bash
 python finetuned_lm_sample_test.py
 ```
 
-3. 
+3. To train:
+```bash
+python train.py
+```
+# Running ConvAI2 evaluation scripts
+
+To run the evaluation scripts of the ConvAI2 challenge, you first need to install `ParlAI` in the repo base folder like this:
+
+```bash
+cd ParlAI
+python setup.py develop
+```
+
+You can then run the evaluation script from `ParlAI` base folder:
+
+```bash
+cd ParlAI
+python ../convai_evaluation_edit.py  
+```   
+
 ## License
 
 This project is licensed under the terms of the MIT license.

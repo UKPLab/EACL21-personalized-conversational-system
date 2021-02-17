@@ -9,7 +9,7 @@ nltk.data.path.append("./nltk_data/")
 from nltk.translate import bleu_score
 from nltk.translate.bleu_score import SmoothingFunction
 from utils import SPECIAL_TOKENS
-from lib.bert_cls.nli_task import main as nli_engine
+from persona_consistency_subreward.nli_task import main as nli_engine
 
 import itertools
 
@@ -103,9 +103,7 @@ def f1_rewarder(pred, label):
     pred_tokens = normalize_answer(pred).split()
     label_tokens = normalize_answer(label).split()
 
-    # &: Intersection (taking positive minimums)
     common = Counter(pred_tokens) & Counter(label_tokens)
-
     num_same = sum(common.values())
     if num_same == 0:
         return 0

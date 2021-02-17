@@ -1,4 +1,10 @@
 torch
 pytorch-ignite
 pytorch-pretrained-bert >= 0.6.2
-tensorboardX
+tensorboardX < 1.7
+sklearn
+nltk
+more_itertools
+stop_words
+pytorch-ignite==0.3
+tt

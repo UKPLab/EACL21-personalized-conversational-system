@@ -25,13 +25,15 @@ from utils import download_pretrained_model, AttrDict
 from interact import sample_sequence
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 class TransformerAgent(Agent):
     @staticmethod
     def add_cmdline_args(argparser):
         agent_args = argparser.add_argument_group('Agent parameters')
-        agent_args.add_argument("--model_checkpoint", type=str, default="./runs/Nov14_08-21-17_krusty/", help="Path, url or short name of the model")   # "./runs/Jun03_00-25-57_krusty/"
+        agent_args.add_argument("--model_checkpoint", type=str, default="../runs/Nov09_21-11-05_krusty/",
+                                help="Path, url or short name of the model")  # "./runs/Jun03_00-25-57_krusty/"
+        #agent_args.add_argument("--model_checkpoint", type=str, default="../runs/Nov14_08-21-17_krusty/", help="Path, url or short name of the model")   # "./runs/Jun03_00-25-57_krusty/"
         agent_args.add_argument("--eval_type", type=str, default="ppl", help="hits@1, ppl or f1")   # hits@1
         # agent_args.add_argument("--model", type=str, default="openai-gpt", help="Model type (gpt or gpt2)")
         agent_args.add_argument("--max_history", type=int, default=2, help="Ncumber of previous utterances to keep in history")
@@ -234,6 +236,7 @@ if __name__ == '__main__':
         eval_fct = partial(eval_f1, print_parser=setup_args)
     else:
         raise ValueError
+
 
     setup_args.set_params(
         model='convai_evaluation_edit:TransformerAgent')
