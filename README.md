@@ -6,7 +6,7 @@ We propose to fine-tune these models by reinforcement learning and an efficient 
 
 
 Your interest to this project is very appreciated. 
-Please read and cite [this paper]() to optimize what you can get from this repo. 
+Please read and cite [this paper](https://aclanthology.org/2021.eacl-main.44/) to optimize what you can get from this repo. 
 Also please don't forget to give it a Github star (on top right).
 
 
