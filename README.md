@@ -78,14 +78,18 @@ Mohsen Mesgar, Simon Simpson, and Iryna Gurevych. 2021. Improving Factual Consis
 
 ## BibTeX
 ```
-@Inproceedings{mesgar21,
+@inproceedings{mesgar-etal-2021-improving,
     title = "Improving Factual Consistency Between a Response and Persona Facts",
-    author = "Mesgar, Mohsen and Simpson, Edwin and Gurevych, Iryna",
-    booktitle = "Proceedings of the 16th Conference of the {E}uropean Chapter of the Association for Computational Linguistics (EACL): Volume 1, Long Papers",
-    month = "April",
-    year = 2021,
+    author = "Mesgar, Mohsen  and
+      Simpson, Edwin  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
     address = "Online",
-    url = "[To Appear]",
-    pages = "[To Appear]"
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-main.44",
+    doi = "10.18653/v1/2021.eacl-main.44",
+    pages = "549--562"
 }
 ```
